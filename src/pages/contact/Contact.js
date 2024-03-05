@@ -60,7 +60,7 @@ const Contact = () => {
       <div className='container-fluid px-4'>
        <div className='row'>
         
-            <div className='col-lg-3 col-sm-6' >
+            <div className='col-lg-3 col-sm-6 mb-3' >
             <div className="card mb-3" >
                     <div className="card-body">
                         <div className='icon'>
@@ -74,7 +74,7 @@ const Contact = () => {
                     </div>
            </div>
             </div>
-            <div className='col-lg-3 col-sm-6' >
+            <div className='col-lg-3 col-sm-6 mb-3' >
             <div className="card mb-3" >
                     <div className="card-body">
                         <div className='icon'>
@@ -88,7 +88,7 @@ const Contact = () => {
                     </div>
            </div>
             </div>
-            <div className='col-lg-3 col-sm-6'>
+            <div className='col-lg-3 col-sm-6 mb-3'>
             <div className="card mb-3" >
                     <div className="card-body">
                         <div className='icon'>
