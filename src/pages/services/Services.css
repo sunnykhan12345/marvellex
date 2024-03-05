@@ -1,0 +1,386 @@
+.service{
+    padding-top: 120px;
+}
+
+ .g{
+    display: flex-end;
+    text-align: end;
+}
+
+.service .service_left h1{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 1.4;
+   
+}
+
+.service .service_left p{
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.div button{
+    padding: 14px 38px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: var(--color-green);
+    color: white;
+    border-radius: 75px;
+    transition: all 0.5s ease-in-out;
+}
+
+.div button:hover{
+    background-color: var(--yellow);
+    color: black;
+}
+
+.icons a{
+    color: var(--color-green);
+    font-size: 20px;
+}
+.icons:hover a{
+    transform: translateX(10px);
+}
+.icons span{
+    font-size: 20px;
+    
+}
+
+
+/* what we do sections  */
+
+.what_we_do{
+    background-color: var(--color-green);
+}
+
+.what_we_do{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 50px 60px;
+}
+.what_we_do  h3{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.left_side .icons p{
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 60%;
+    background-color: var(--yellow);
+}
+
+.left_side .icons h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+    line-height: 1.4;
+    text-shadow: 2px 5px 5px red;
+} 
+
+
+/* professonial sections */
+.bt button{
+    border: none;
+    outline: none;
+    background-color: var(--yellow);
+    color: black;
+    border-radius: 75px;
+    padding: 12px 40px;
+    margin: 20px 0;
+}
+.bt h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.one h4{
+    color: var(--color-green);
+    font-weight: 700;
+    padding: 10px 0;
+}
+.one h3{
+    font-weight: 700;
+    font-size: 20px;
+    /* font-size: 25px; */
+}
+
+/* custom css */
+
+.custom{
+    margin-top: 200px;
+
+    
+}
+
+.btn_groups button{
+    margin: 40px 0;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    padding: 14px 44px;
+   color: black;
+    border-radius: 75px;
+    font-size: 19px;
+    font-weight: 600;
+    transition: all 0.ss ease-in-out;
+    border: 1px solid var(--color-green);
+}
+.btn_groups button:hover{
+    background-color: var(--color-green);
+    color: white;
+}
+
+/* store style css */
+.ecommerce_store{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ecommerce_store .store{
+    background-color: var(--color-green);
+    padding: 70px 100px;
+    border-radius: 70px;
+   
+}
+.ecommerce_store .store h3{
+    color: white;
+    padding: 20px 0;
+    font-weight: 800;
+    font-style: 50px;
+    text-align: center;
+   
+}
+.ecommerce_store .store p{
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* .faqs secions */
+.faqs_section{
+    padding-top: 200px;
+    margin-bottom: 150px;
+}
+
+.accordion-item{
+    border-radius: 70px;
+}
+.accordion-item .accordion-button{
+   padding: 20px 30px;
+   border-radius: 70px !important;
+   transition: all 0.5s ease;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+
+/* accrodion-section css */
+.accrodion-section{
+    padding-bottom: 150px;
+   
+}
+.accordion-button:hover{
+    opacity: 0.5 !important;
+}
+
+.accordion-body{
+    background-color: var(--color-green) !important;
+    opacity: 0.9;
+    color: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    border-radius: 60px !important;
+  
+}
+
+.accordion-button{
+    border: 1px solid white;
+    border-radius: 70px;
+    margin: 10px 0;
+}
+.accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+    
+    opacity: 0.9 !important;
+ 
+}
+/* media query for small screeen */
+
+@media(max-width:567px){
+    .service .service_left h1{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1.4;
+       
+    }
+    .service .service_left p{
+       
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        padding-right: 50px;
+        text-align: justify;
+    }
+
+    .div button{
+      display: none;
+    
+    }
+
+    .what_we_do  h3{
+    
+        font-size: 30px;
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+
+    .icons a{
+        
+        font-size: 16px;
+    }
+
+    .what_we_do  h3{
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    
+.left_side .icons p{
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 60%;
+    background-color: var(--yellow);
+}
+
+.left_side .icons h4{
+ 
+    font-size: 20px;
+    font-weight: 500;
+    
+    line-height: 1.2;
+    text-shadow: 2px 5px 5px red;
+} 
+
+
+/* store media query */
+.ecommerce_store{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.ecommerce_store .store{
+    background-color: var(--color-green);
+    padding: 50px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+   
+}
+.ecommerce_store .store h3{
+    
+    padding: 20px 0;
+    font-weight: 800;
+    font-style: 50px;
+    text-align: center;
+    font-size: 20px;
+   
+}
+.ecommerce_store .store{
+    background-color: var(--color-green);
+    padding: 30px 30px;
+    border-radius: 70px;
+   
+}
+.ecommerce_store .store p{
+    text-align: justify;
+}
+.faqs_section{
+    padding-top: 30px;
+    margin-bottom: 50px;
+   
+}
+.faqs_section .bt button{
+    padding: 10px 26px;
+}
+.faqs_section h2{
+    font-size: 20px;
+}
+
+.accrodion-section{
+    padding-bottom: 30px;
+}
+.accordion-item .accordion-button{
+    padding: 10px 30px;
+    border-radius: 50px !important;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+ }
+ 
+ 
+ /* accrodion-section css */
+ .accrodion-section{
+     padding-bottom: 150px;;
+ }
+ 
+ .accordion-body{
+     background-color: var(--color-green) !important;
+     opacity: 0.9;
+     color: white;
+     padding: 20px 30px;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 1.4;
+     border-radius: 50px !important;
+   
+ }
+ 
+ .accordion-button{
+     border: 1px solid white;
+     border-radius: 70px;
+     margin: 10px 0;
+ }
+ .accordion-button:focus{
+     outline: none;
+     box-shadow: none;
+     
+     opacity: 0.9 !important;
+  
+ }
+.accordion-item span{
+    font-size: 15px !important;
+   
+}
+ .texts h1{
+    font-size: 16px !important;
+ }
+ .bt button{
+    border-radius: 75px;
+    padding: 10px 36px;
+    margin: 20px 0;
+}
+.bt h2{
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+.get_business{
+
+padding: 20px 0;
+
+}
+
+}

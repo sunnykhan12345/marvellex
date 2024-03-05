@@ -1,0 +1,260 @@
+.carrers{
+    padding: 60px 0;
+}
+
+.carrers h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 4;
+}
+
+.carrers p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9a9a9a;
+}
+
+.carrers-us{
+    padding-bottom: 140px;
+}
+
+.let_get h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        letter-spacing: 4;
+    
+}
+
+.let_get p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9a9a9a;
+    /* text-align: center; */
+    
+}
+
+.right_section h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.right_section p{
+    text-align: center;
+}
+.next-js{
+    padding-top: 30px;
+}
+
+.next-js h4{
+    font-weight: 800;
+}
+.apply button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background-color: var(--color-green);
+    color: white;
+    border-radius: 75px;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.apply button:hover{
+    background-color: var(--yellow);
+    color: black;
+}
+
+.btnss button{
+   
+   padding: 8px 36px;
+   border: none;
+   outline: none;
+   border-radius: 75px;
+   border: 1px solid var(--color-green);
+   transition: all 0.3s ease-in-out;
+   font-size: 16px;
+   font-weight: 700;
+   margin-top: 30px;
+}
+.btnss button:hover{
+    background-color: var(--color-green);
+    color: white;
+}
+
+.btnss span{
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.btnss:hover span{
+    color: white;
+}
+
+
+/* style for benifts css */
+
+
+.benefits_section{
+    padding: 50px 50px;
+    background-color: var(--color-green);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.benefits_section h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.icons p{
+    
+}
+
+.one_icon{
+    background-color: var(--yellow);
+    padding: 5px 20px;
+    border-radius: 75px;
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px 0;
+}
+.icons h2{
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 50px;
+        text-shadow: 5px 5px 5px red;
+     }
+    
+.crd_second{
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+    padding: 10px 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+.crd_second:hover{
+    /* background-color: var(--yellow); */
+  transform: scale(1.1);
+}
+
+
+/* other cv section  */
+
+.cv_section{
+    padding: 200px 50px;
+}
+
+.cv_section .cv_first .icon p{
+    font-size: 60px;
+    color: var(--color-green);
+}
+.cv_section .cv_first  .texts h5{
+    margin: 15px 0;
+    font-weight: 700;
+   
+}
+
+.texts h6{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+/* for small screeen  */
+
+@media(max-width:567px){
+    .carrers{
+        padding: 50px 0;
+        
+    }
+    
+    .carrers h1{
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        
+    }
+    
+    .carrers p{
+        font-size: 16px;
+        font-weight: 500;
+        
+       
+    }
+
+    .right_section button{
+     
+    }
+    .right_section h2{
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        
+        line-height: 1.3;
+    }
+    .right_section p{
+        text-align: center;
+        
+        margin-bottom: 30px;
+    }
+
+    .btnss{
+        text-align: center;
+    }
+    .btnss button{
+      
+        padding: 6px 30px;
+        font-size: 16px;
+        font-weight: 700;
+         margin-top: 20px;
+     }
+
+     .benefits_section h1{
+        
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+
+    .icons h2{
+        
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 50px;
+        text-shadow: 5px 5px 5px red;
+     }
+     
+.benefits_section{
+    
+    padding: 50px 50px;
+    background-color: var(--color-green);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.cv_section{
+    padding: 30px 50px;
+   
+}
+
+.next-js{
+    padding-top: 30px;
+}
+
+
+.apply button{
+
+    padding: 8px 26px;
+    background-color: var(--color-green);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+    
+}
+

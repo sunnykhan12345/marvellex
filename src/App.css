@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MS", sans-serif;
+}
+
+
+  
+:root{
+  --color-green:#007d58;
+  --light-gray:#6fcf97;
+  --light-gray:#f6fffc;
+  --gray:#f5f5f5;
+  --yellow:#f7ea82;
+  --dark:#1e1e1e;
+  --social-media:#272727;
+  --white:#fff;
+  --black:#0000;
+
+}

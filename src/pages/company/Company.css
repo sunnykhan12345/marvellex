@@ -1,0 +1,131 @@
+.company_section{
+    padding-top: 160px;
+}
+
+.company_section .company_left h1{
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+
+.company_section .company_left p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "MS",sans-serif;
+}
+.company_right_img{
+ 
+}
+
+.company_left .texts{
+    padding-top: 30px;
+}
+
+.company_left .texts button{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 75px;
+    color:white;
+    padding: 10px 32px;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--color-green);
+}
+
+.company_left .texts button:hover{
+    background-color: var(--yellow);
+    color: black;
+}
+
+
+/* copy and modify this  */
+
+.right_section h1{
+   font-size: 35px;
+   font-size: 800;
+} 
+
+.right_icon p{
+    padding: 10px;
+    color: var(--color-green);
+    /* color: white; */
+    border-radius: 50%;
+    font-size: 25px;
+}
+.right_section .p{
+    text-align:left;
+    padding-top: 30px;
+}
+
+/* sekh team */
+
+.first-pic{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.35);
+    padding: 10px 0;
+    margin-bottom: 50px;
+   height: 100%;
+    min-height: 200px;
+    
+}
+.first-pic img{
+    transition: all 0.5s ease-in-out;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.first-pic h4{
+    text-align: center;
+    padding: 10px 0;
+    line-height: 1.4;
+    font-weight: 900;
+}
+.first-pic p{
+    text-align: center;
+}
+
+.first-pic:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+    
+}
+/* media query for small screen */
+@media(max-width:567px){
+    .company_section{
+        padding-top: 50px;
+    }
+    .company_section .company_left h1{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.3;
+        padding-bottom: 30px;
+    }
+    
+    .company_section .company_left p{
+        font-size: 16px;
+         text-align: justify;
+       
+    }
+    .company_section .sec_top{
+        display: none;
+    }
+
+    .company_left .texts{
+        padding-top: 20px;
+       
+    }
+    
+    .company_left .texts button{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 26px;
+
+}
+.bt h2{
+   font-size: 25px !important;
+}
+.bt {
+    display: none;
+}
+}

@@ -1,0 +1,157 @@
+.home_banner{
+    padding: 100px 0;
+}
+
+.home_banner .img-section img{
+    width: 580px;
+    height: 580px;
+    object-fit: cover;
+    position: relative;
+}
+.home_banner .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    bottom: 58%;
+    right:8% ;
+    background-color: white;
+    border-radius: 50px;
+    opacity: 0.8;
+    
+}
+.home_banner .top .icon{
+    background-color: black;
+    padding:8px;
+    color: white;
+    border-radius: 70px;
+    object-fit: cover;
+    
+}
+.home_banner .top .text{
+    padding: 0 20px;
+}
+.home_banner .top .text h4{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.home_banner .top:hover{
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.second_parent .sec_text{
+    display: flex;
+    flex-direction: column;
+}
+.home_banner .text_section button{
+   border: none;
+   background-color: var(--yellow);
+   padding: 5px 26px;
+   border-radius: 70px;
+   font-size: 15px;
+   margin-bottom: 20px;
+}
+
+.home_banner .text_section h1{
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 85px;
+
+}
+
+.home_banner .sec_text .text{
+    padding: 0 20px;
+}
+.home_banner .sec_text h4{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.home_banner .sec_text:hover{
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.sec_top{
+    position: absolute;
+    bottom: -20%;
+    right:14% ;
+    background-color: white;
+    width: 270px;
+    height: 200px;
+   padding: 10px;
+   background-color: white;
+   border-radius: 50px;
+   opacity: 0.8;
+  
+}
+.sec_top .icon-1{
+    padding: 0px 5px;
+    background-color: var(--color-green);
+    color: white;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: 10px;
+    opacity: 0.8;
+}
+.sec_text .icon-1{
+    padding: 0px 5px;
+    background-color: var(--color-green);
+    color: white;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: 10px;
+    opacity: 0.8;
+
+}
+
+
+
+@media(max-width:567px){
+    .home_banner .text_section h1{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 45px;
+       
+       /* display: inline-block !important; */
+    
+    }
+    .home_banner{
+        padding: 70px 0;
+       
+    }
+    .parent{
+        display: none;
+    }
+    .second_parent{
+        display: none;
+    }
+}
+
+@media(max-width:767px){
+    .parent{
+        display: none;
+    }
+    .second_parent{
+        display: none;
+    }
+}
+
+/* large screeen */
+@media(max-width:992px){
+    .parent{
+        display: none;
+    }
+    .second_parent{
+        display: none;
+    }
+}
